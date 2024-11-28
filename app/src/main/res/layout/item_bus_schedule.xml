@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/item_bus_schedule.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:background="@color/darker_background">
+
+    <!-- Schedule Information -->
+    <TextView
+        android:id="@+id/trip_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trip Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Time from Campus"
+        android:textSize="14sp"
+        android:textColor="@color/gray" />
+
+    <TextView
+        android:id="@+id/start_spot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starting Spot &amp; Time"
+        android:textSize="14sp"
+        android:textColor="@color/gray" />
+
+    <TextView
+        android:id="@+id/remarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remarks"
+        android:textSize="14sp"
+        android:textColor="@color/gray" />
+
+    <!-- Switch for notification feature -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/track_permission_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Notify for Tracking"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/track_permission_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Turn on to notify others for tracking permission" />
+
+    </LinearLayout>
+
+</LinearLayout>

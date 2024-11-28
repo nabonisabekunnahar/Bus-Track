@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "751629807902",
+    "firebase_url": "https://bus01track-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bus01track",
+    "storage_bucket": "bus01track.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751629807902:android:779b0c268bc4206f68990f",
+        "android_client_info": {
+          "package_name": "com.example.bustrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751629807902-2qnjujgdqlrugapls1bh3tkclv59ijsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bustrack",
+            "certificate_hash": "4e5922d9528d3ae76193bfb49095f5f85e670194"
+          }
+        },
+        {
+          "client_id": "751629807902-t306tg94aclil12ege6j5n52q5hvpn3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOdtFOCYXVnwEm2aWNZBLFijNHAbpaEAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751629807902-t306tg94aclil12ege6j5n52q5hvpn3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

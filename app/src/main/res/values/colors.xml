@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#757575</color>
+    <color name="primaryColor">#6200EE</color>
+    <color name="backgroundColor">#436945</color>
+    <color name="light_background">#E6A59D</color>
+    <color name="lavender">#B06AED</color>
+
+    <!-- Slightly darker color for item background -->
+    <color name="darker_background">#80D584</color>
+
+</resources>

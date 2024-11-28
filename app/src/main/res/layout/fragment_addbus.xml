@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddbusFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp">
+
+     <com.google.android.material.card.MaterialCardView
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:id="@+id/selectorBus"
+         app:cardCornerRadius="10dp"
+         app:cardElevation="5dp">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:gravity="center">
+             <ImageView
+                 android:id="@+id/busImage"
+                 android:layout_width="80dp"
+                 android:layout_height="80dp"
+                 android:src="@drawable/cam"/>
+
+         </LinearLayout>
+     </com.google.android.material.card.MaterialCardView>
+
+      <EditText
+          android:id="@+id/busName"
+          android:layout_width="match_parent"
+          android:layout_height="52dp"
+          android:layout_marginTop="20sp"
+          android:background="@color/white"
+          android:hint="Enter Bus Destination"
+          android:paddingStart="20sp"
+          android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/busTime"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="20sp"
+            android:background="@color/white"
+            android:hint="Enter Bus Time"
+            android:paddingStart="20sp"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/busNumber"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="20sp"
+            android:background="@color/white"
+            android:hint="Enter Bus Number"
+            android:paddingStart="20sp"
+            android:singleLine="true"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@color/white"
+            android:layout_marginTop="10sp"
+            >
+
+            <TextView
+                android:id="@+id/buslocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switch to current location"
+                android:textSize="18dp"
+                android:layout_centerVertical="true"
+                android:paddingStart="20sp"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5sp"
+                app:thumbTint="#AAA5A5"/>
+
+        </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/uploadbtn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="50dp"
+        android:background="@drawable/rounded_button"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+         
+    </LinearLayout>
+
+</RelativeLayout>
